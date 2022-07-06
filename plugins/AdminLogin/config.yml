@@ -1,0 +1,7 @@
+# This is the config file for AdminLogin - Version 2
+# 
+# This is the maximum amount of attempts a player has to get the password correct
+# If the player does not get the password in the amount of attempts they will be kicked
+max-password-attempts: 3
+login-timer: true
+login-timer-time: 30

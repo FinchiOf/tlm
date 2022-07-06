@@ -1,0 +1,80 @@
+messages:
+  prefix: '&8[&3GM Control&8] &7'
+  no-console: You can't run this command from the console!
+  no-perm: You don't have the permission to execute this.
+  change: Your gamemode has been changed into %gamemode%.
+  set: Your set the gamemode of %target% to %gamemode%.
+  check: The gamemode of %target% is %gamemode%.
+  wrong-usage: Run this command as %command%.
+  player-offline: This player is not online at the moment.
+gui:
+  name: '&6Change GameMode'
+  title:
+    survival: '&4Survival'
+    adventure: '&6Adventure'
+    creative: '&2Creative'
+    spectator: '&9Spectator'
+  lore:
+    survival: '&7Change %name%s GameMode to survival mode.'
+    adventure: '&7Change %name%s GameMode to adventure mode.'
+    creative: '&7Change %name%s GameMode to creative mode.'
+    spectator: '&7Change %name%s GameMode to spectator mode.'
+  max-players: They are too many players online to open this gui!
+  survival:
+    id: 159
+    data: 14
+    amount: 1
+  adventure:
+    id: 159
+    data: 4
+    amount: 1
+  creative:
+    id: 159
+    data: 5
+    amount: 1
+  spectator:
+    id: 159
+    data: 3
+    amount: 1
+  all:
+    lore:
+      survival: '&7Change all GameModes to survival mode.'
+      adventure: '&7Change all GameModes to adventure mode.'
+      creative: '&7Change all GameModes to creative mode.'
+      spectator: '&7Change all GameModes to spectator mode.'
+    survival:
+      id: 159
+      data: 14
+      amount: 1
+    adventure:
+      id: 159
+      data: 4
+      amount: 1
+    creative:
+      id: 159
+      data: 5
+      amount: 1
+    spectator:
+      id: 159
+      data: 3
+      amount: 1
+    title:
+      survival: '&4Survival'
+      adventure: '&6Adventure'
+      creative: '&2Creative'
+      spectator: '&9Spectator'
+    item:
+      name: '&5Change all gamemodes'
+      lore: '&7Change %name%s GameMode to survival mode.'
+      id: 159
+      data: 14
+      amount: 1
+    name: '&5Change all GameModes'
+join:
+  setdefaultgamemode: true
+  defaultgamemode: 0
+actionbar:
+  no-perm: '&cYou don''t have the permission to execute this.'
+  change: '&7Your gamemode has been changed into &6%gamemode%&7.'
+  set: '&7Your set the gamemode of &6%target%&7 to &6%gamemode%&7.'
+  check: '&7The gamemode of &6%target%&7 is &6%gamemode%&7.'
